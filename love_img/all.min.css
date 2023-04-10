@@ -647,8 +647,8 @@ body,button {
 .page-6 img {
 	position:absolute;
 	bottom:0;
-	left:0;
-	height:80%
+	left:200;
+	
 }
 .page-6 h3 {
 	position:absolute;
@@ -660,7 +660,7 @@ body,button {
 	background-color:#e6fbec
 }
 .page-7 img {
-	margin-top:100;
+	margin-top:20;
 	height:80%
 }
 .page-7 h3 {
@@ -676,7 +676,7 @@ body,button {
 	background:#66cbff
 }
 .page-8 img {
-	margin-top:100;
+	margin-top:20;
 	height:80%
 }
 .page-8 h3 {
@@ -699,12 +699,14 @@ body,button {
 	background-color:#c9f4fb
 }
 .page-9 img {
-	margin-top:50
+margin-top:20;
+	height:80%
 }
 .page-10 {
 	background:url(img/iali22_bg.jpg)
 }
 .page-10 img {
+margin-top:20;
 	height:80%
 }
 .page-11 img {
@@ -716,8 +718,8 @@ body,button {
 	padding:0
 }
 .page-12 img {
-	position:absolute;
-	height:80%
+margin-top:20;
+	height:70%
 }
 .page-12 h3 {
 	margin-left:1em;
@@ -725,9 +727,9 @@ body,button {
 }
 .page-13 {
 	background-color:#feeff4;
-	padding:0
 }
 .page-13 img {
+margin-top:5;
 	height:80%
 }
 .page-13 he {
@@ -737,32 +739,43 @@ body,button {
 	background-color:#fbf7d1
 }
 .page-14 img {
-	margin-top:150;
-	height:80%
+	margin-top:0;
+	left:0
+}
+.page-14 h3 {
+	position:absolute;
+	right:10%;
+	top:45%;
+	
 }
 .page-15 {
 	background:#dcf2fa url(img/iali45_bg.jpg)
 }
 .page-15 img {
-	margin-top:30;
-	height:80%
+	margin-top:10;
+	height:75%
 }
 .page-16 {
 	background-color:#7db6df
 }
 .page-16 img {
-	margin-top:200;
-	height:70%
+	margin-top:0;
+}
+.page-16 h3 {
+	position:absolute;
+	right:5%;
+	top:35%;
+	
 }
 .page-17 {
 	background-color:#e5f0f2
 }
 .page-17 img {
-	margin-top:50;
+	margin-top:20;
 	height:80%
 }
 .page-18 img {
-	margin-top:50;
+	margin-top:20;
 	height:80%
 }
 .page-19 {
@@ -770,10 +783,10 @@ body,button {
 }
 .page-19 img {
 	margin-top:20;
-	height:70%
+	height:80%
 }
 .page-19 h3 {
-	margin-bottom:2em
+	margin-bottom:0em
 }
 .page-18 .text {
 	margin-left:1em;
@@ -787,41 +800,57 @@ body,button {
 	position:absolute;
 	bottom:0;
 	left:4em
-	margin-top:50;
-	height:80%
+	margin-top:0;
+	
 
+}
+.page-20 h3 {
+	position:absolute;
+	right:10%;
+	top:40%;
+	
 }
 .page-21 {
 	background:#fbf2a3 url(img/iali59_bg.jpg)
 }
 .page-21 img {
-	margin-top:50;
+	margin-top:20;
 	height:80%
 }
 .page-22 {
 	background-color:#f5d484
 }
 .page-22 img {
-	margin-top:130;
-	height:80%
+	left:100
+}
+.page-22 h3 {
+	position:absolute;
+	right:10%;
+	top:40%;
+	
 }
 .page-23 {
 	background-color:#fff
 }
 .page-23 img {
-	margin-top:50;
+	margin-top:20;
 	height:80%
 }
 .page-24 img {
-	margin-top:50;
+	margin-top:20;
 	height:80%
 }
 .page-25 {
 	background-color:#fcc1b1
 }
 .page-25 img {
-	margin-top:190;
-	height:70%
+	left:100
+}
+.page-25 h3 {
+	position:absolute;
+	right:10%;
+	top:35%;
+	
 }
 .page-26 {
 	background-color:#fdeacf
@@ -882,6 +911,12 @@ body,button {
 	bottom:0;
 	left:0
 }
+.page-30 h3 {
+	position:absolute;
+	right:4%;
+	top:35%;
+	
+}
 .page-31 {
 	background-color:#fbf5e9
 }
@@ -932,8 +967,8 @@ body,button {
 }
 .page-35 h3 {
 	position:absolute;
-	right:10%;
-	top:5%;
+	right:5%;
+	top:3%;
 	color:green;
 	z-index:2;
 	font-size:2em
@@ -943,19 +978,41 @@ body,button {
 	right:1.5em;
 	color:#eee
 }
+.page-36 h3 {
+	position:absolute;
+	right:10%;
+	top:35%;
+	
+}
 .page-36 img {
 position:absolute;
 bottom:0;
-	left:0;
+	left:100;
 }
 .page-37 {
 	background-color:#fff
+}
+.page-37 h3 {
+	position:absolute;
+	right:10%;
+	top:35%;
+	
+}
+.page-37 img {
+position:absolute;
+bottom:0;
+	left:150;
 }
 .page-38 {
 	background-color:#fff8f2
 }
 .page-39 {
 	background:#e8ccc1 url(img/iali2_bg.jpg) repeat
+}
+.page-39 h3 {
+	font-size:2em;
+	right:2%;
+	top:35%;
 }
 .page-40 {
 	background-color:#cde7f4
@@ -969,7 +1026,7 @@ bottom:0;
 }
 .page-40 h3 {
 	position:absolute;
-	top:1em;
+	top:2em;
 	right:1em;
 	z-index:2
 }
@@ -999,8 +1056,8 @@ bottom:0;
 	background-color:#c1c567
 }
 .page-42 img {
-	margin-top:20;
-	height:80%
+	margin-top:10;
+	height:75%
 }
 .page-42 h3 {
 	font-size:2em
@@ -1064,9 +1121,21 @@ position:absolute;
 .page-48 {
 	background-color:#e3e2e7
 }
+.page-48 p {
+	position:absolute;
+	top:15;
+
+	
+}
 .page-49 {
 	background-color:#fce6b6;
 	text-align:left
+}
+.page-49 p {
+	position:absolute;
+	right:18%;
+
+	
 }
 .page-49 img {
 	margin-top:20;
@@ -1088,24 +1157,31 @@ position:absolute;
 }
 .page-50 p {
 	position:absolute;
-	top:1em;
+	top:7em;
 	left:1em;
 	width:50%;
 	margin:0;
 	z-index:3;
-	font-size:1.5em
+	font-size:2em
 }
 .page-51 {
-	background-image:url(img/iali52.jpg);
-	width:50%;
-	background-size:cover;
 	background-color:#fff;
 	text-align:left
+	padding:0
 }
-.page-51 .img {
+.page-51 img{
 	position:absolute;
-	right:0;
+	left:0;
 	top:0
+}
+.page-51 p {
+	position:absolute;
+	top:5em;
+	right:1em;
+	width:50%;
+	margin:0;
+	z-index:3;
+	font-size:2em
 }
 .page-52 {
 	background-color:#fff2fb;
